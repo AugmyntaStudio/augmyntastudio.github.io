@@ -36,7 +36,8 @@ header {
 
 .icon {
     float: right;
-    margin-right: 10%
+    margin-right: 10%;
+    margin-top: 3%;
 }
 
 .small-text {
@@ -91,18 +92,19 @@ header {
 }
 
 .nav__links li a:hover {
-    color: #0088a9
+    color: #4905EF
 }
 
-button {
+.nav__links button {
     margin-left: 20px;
     padding: 9px 25px;
     border-radius: 30px;
-    background: linear-gradient(90deg, #4905EF 0%, #6F00CA 100%);
+    background: linear-gradient(to left, #4905EF, #6F00CA, #4905EF);
+    background-size: 200%;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
+    transition: 0.6s;
     color: #FFF;
     text-align: center;
     font-family: "Inter", sans-serif;
@@ -112,8 +114,9 @@ button {
     line-height: normal;
     text-decoration: none;
     letter-spacing: 1px;
+    display: inline-block;
 }
 
-button:hover {
-    background-color: rgba(0,136,169,0.8);
+.nav__links button:hover {
+    background-position: right;
 }

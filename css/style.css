@@ -1,122 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #FFF;;
-}
-
-li, a {
-    color: #353535;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-    letter-spacing: 1px;
-}
+/* background: linear-gradient(to left, #4905EF, #6F00CA, #4905EF); */
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 5.5%;
+    padding: 20px 15px;
 }
 
-.line {
-    height: 0.2rem;
-    width: 90%;
-    margin-left: 5%;
-    align-items: center;
-    background:  #000
-}
-
-.icon {
-    float: right;
-    margin-right: 10%;
-    margin-top: 3%;
-}
-
-.small-text {
-    display: flex;
-    width: 720px;
-    height: 100px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #353535;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-left: 5%;
-}
-
-.big-text {
-    display: flex;
-    width: 865px;
-    height: 400px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #353535;
-    font-family: Inter;
-    font-size: 85px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 100px; /* 100% */
-    margin-left: 5%;
-    white-space: pre-wrap;
-}
-
-.logo {
-    cursor: pointer;
-    margin-right: auto;
-}
-
-.nav__links {
+ul {
     list-style: none;
 }
 
-.nav__links li {
-    display: inline-block;
-    padding: 0px 20px;
+.body {
+    display: flex;
+    flex-direction: row;
 }
 
-.nav__links li a {
-    transition: all 0.3s ease 0s;
+.section1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 1056px;
+    min-width: 500px;
+    margin-left: -20px;
 }
 
-.nav__links li a:hover {
-    color: #4905EF
+text.title {
+    font-family: 'Archivo', sans-serif;
+    font-style: n;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+    display: flex;
+    padding-bottom: 30px;
+    background: linear-gradient(180deg, #BFBFBF 0%, #A8B0CD 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-.nav__links button {
-    margin-left: 20px;
-    padding: 9px 25px;
-    border-radius: 30px;
-    background: linear-gradient(to left, #4905EF, #6F00CA, #4905EF);
-    background-size: 200%;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: 0.6s;
-    color: #FFF;
-    text-align: center;
-    font-family: "Inter", sans-serif;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-decoration: none;
-    letter-spacing: 1px;
-    display: inline-block;
+text.subtext1 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+    color: #2E2E2E;
+    display: flex;
+    padding-bottom: 30px;
 }
 
-.nav__links button:hover {
-    background-position: right;
+text.subtext2 {
+    font-family: 'Archivo', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #BFBFBF 0%, #A8B0CD 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+img.hill {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+img.graphic-logo1 {
+    position: absolute;
+    bottom: 220px;
+    left: 1126px;
+}
+
+img.graphic-logo2 {
+    position: absolute;
+    bottom: 290px;
+    left: 1530px;
+    opacity: 0.5;
+}
+
+img.graphic-logo3 {
+    position: absolute;
+    bottom: 245px;
+    left: 1742px;
+    opacity: 0.25;
+}
+
+text.copyright {
+    font-family: 'Archivo', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0.5;
 }
